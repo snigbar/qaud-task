@@ -18,6 +18,7 @@ export default function Carousel({ data }: { data: TRecipe[] }) {
         settings: {
           slidesToShow: 4,
           slidesToScroll: 1,
+          initialSlide: 2,
           infinite: true,
         },
       },
@@ -26,6 +27,7 @@ export default function Carousel({ data }: { data: TRecipe[] }) {
         settings: {
           slidesToShow: 3,
           slidesToScroll: 1,
+          initialSlide: 2,
           infinite: true,
         },
       },
@@ -38,10 +40,11 @@ export default function Carousel({ data }: { data: TRecipe[] }) {
         },
       },
       {
-        breakpoint: 480,
+        breakpoint: 520,
         settings: {
           slidesToShow: 1,
           slidesToScroll: 1,
+          initialSlide: 1,
         },
       },
     ],
