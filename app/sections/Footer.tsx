@@ -11,7 +11,7 @@ export default function Footer() {
           <input
             type="search"
             id="default-search"
-            className="block w-full p-4 ps-10 text-sm text-gray-900 border-none focus:outline-orange-300 rounded-2xl bg-gray-50 focus:ring-orange-500 focus:border-orange-500"
+            className="block w-full py-4 ps-10 pe-2 text-sm text-gray-900 border-none focus:outline-orange-300 rounded-2xl bg-gray-50 focus:ring-orange-500 focus:border-orange-500"
             placeholder="Enter Your Email"
             required
           />

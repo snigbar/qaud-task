@@ -2,7 +2,7 @@ import getRecipe from "@/app/lib/getRecipeData";
 import { create } from "zustand";
 
 export interface TRecipe {
-  Id: string;
+  Id?: string;
   Name: string;
   Price: number;
   ImageUrl: string;
