@@ -2,8 +2,59 @@
 @tailwind components;
 @tailwind utilities;
 
-.dropdown-content > li:hover {
-  background-color: #eeeff0;
-  color: #fd6011;
-  border-radius: 5px;
+.slick-slider {
+  width: 100%;
+}
+
+.slick-list {
+  width: 100% !important;
+}
+
+.slick-track .slick-slide div {
+  margin-right: 0.8rem;
+}
+.slick-slider {
+  position: relative;
+}
+
+.slick-track .slick-slide div div > img {
+  height: 320px !important;
+  width: 100% !important;
+  margin-right: 2rem !important;
+  border-radius: 1.2rem;
+}
+
+.slick-slider .slick-arrow {
+  top: -2.5rem !important;
+  margin-right: 2rem;
+}
+.slick-slider .slick-prev {
+  left: 95% !important;
+}
+
+.slick-slider .slick-arrow::before {
+  color: #fd6011 !important;
+}
+
+@media only screen and (max-width: 1024px) {
+  .slick-slider .slick-prev {
+    left: 93% !important;
+  }
+}
+
+@media only screen and (max-width: 768px) {
+  .slick-slider .slick-prev {
+    left: 90% !important;
+  }
+}
+@media only screen and (max-width: 480px) {
+  .slick-slider .slick-prev {
+    left: 85% !important;
+  }
+}
+
+@media only screen and (min-width: 1900px) {
+  .slick-slider .slick-prev {
+    left: 96% !important;
+  }
 }
