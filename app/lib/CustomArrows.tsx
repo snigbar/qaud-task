@@ -1,3 +1,4 @@
+"use client";
 import { before } from "node:test";
 
 type Props = {
