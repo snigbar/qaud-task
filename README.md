@@ -63,6 +63,8 @@ npm run lint: Run linting for the project.
 * TypeScript
 * uniqid
 * DaisyUI
+* Prettier
+* Eslint
 
 
 
